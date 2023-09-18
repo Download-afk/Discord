@@ -1,0 +1,18 @@
+import discord
+
+# Crie uma instância de um objeto Embed
+embed = discord.Embed(
+    title="Atualizações de Baldur's Gate 3",
+    description="-\n-\n-\n||@everyone ||\nBaldur's Gate 3: Uma Jornada Épica no Mundo da Fantasia\n\nBaldur's Gate 3 é um RPG eletrônico que leva os jogadores a uma jornada épica através do mundo de Forgotten Realms, um reino de fantasia repleto de magia, criaturas misteriosas e intrigas políticas. Desenvolvido pela Larian Studios, o jogo é uma sequência altamente antecipada da icônica série Baldur's Gate, que cativou os fãs de RPG por décadas.\n\nNeste jogo, os jogadores assumem o papel de um herói (ou anti-herói) personalizado e embarcam em uma aventura repleta de escolhas morais, combates táticos e uma narrativa envolvente. A história começa com a invasão de uma mente alienígena, conhecida como o \"Githyanki\", que busca o poder contido em um antigo artefato chamado \"Cérebro Devorador\". Os jogadores se encontram em uma luta desesperada para resistir à invasão, enquanto descobrem segredos sombrios que moldarão o destino do reino.\n\nUma das características distintivas de Baldur's Gate 3 é seu sistema de escolhas e consequências, onde as ações dos jogadores têm um impacto significativo na narrativa e nas relações com os personagens. O jogo também apresenta um sistema de combate tático baseado em turnos, que desafia os jogadores a pensarem estrategicamente durante as batalhas emocionantes.\n\nAlém disso, o mundo de Baldur's Gate 3 é ricamente detalhado, com ambientes deslumbrantes, personagens complexos e uma atmosfera envolvente que transporta os jogadores para um reino de maravilhas e perigos. A personalização de personagens e a exploração de escolas de magia, masmorras e cidades pitorescas tornam a experiência ainda mais imersiva.",
+    url="https://baldursgate3.game/news/",
+    color=discord.Color.blue()  # Cor (você pode alterar para a cor desejada)
+)
+
+# Adicione uma imagem ao embed
+embed.set_image(url="https://gameplayscassi.com.br/wp-content/uploads/2023/07/baldurs-gate-iii-1024x576.jpg")
+
+# Defina o nome do autor
+embed.set_author(name="Clique no Link Abaixo para Acessar as Atualizações\n\n-\n-\n-")
+
+# Exemplo de como enviar o embed (substitua 'channel' pelo canal desejado)
+# channel.send(embed=embed)
